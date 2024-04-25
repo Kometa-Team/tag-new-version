@@ -22,7 +22,7 @@ inputs:
       A template for producing a tag annotation from the current version of your
       repository, replacing '{VERSION}' with the deteced version. May be set to
       an empty string to produce a lightweight (i.e. annotation-less) tag.
-    default: 'Released version {VERSION}'
+    default: ''
 outputs:
   previous-version:
     description: the detected previous version of this repository
